@@ -1,0 +1,7 @@
+1. monolithic server: 
+    contains routing, middlewares, business logic and database access 
+    to implement all features of our app
+2. microservice :
+    contains routing, middlewares, business logic and database access 
+    to implement ONE features of our app
+        pro: if server for other services/functionalities crashed, our particular service will not be affected
